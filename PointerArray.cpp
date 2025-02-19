@@ -229,17 +229,17 @@ int main()
     Student s1(AM1, "John", 5, 2, grades1, 3, courses);
     Student s2(AM2, "Steve", 2, 2, grades1, 3, courses);
     
-    std::cout << s1 << std::endl;
+    std::cout << s1;
     s1.printGrades(std::cout);
 
     s1 += newCourse;
 
-    std::cout << s1 << std::endl;
+    std::cout << s1;
     s1.printGrades(std::cout);
 
     s1 = s2;
 
-    std::cout << s1 << std::endl;
+    std::cout << s1;
     s1.printGrades(std::cout);
 
     if(s1 < s2){
